@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:100vh;
+    background-color: rgb(64, 64, 102);
+}
+
+.container {
+    width: 800px;
+    max-width:80%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-grid {
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    border-radius: 10px;
+    margin:20px 0;
+   
+}
+
+.btn {
+   border-radius: 10px;
+}
+
+.btn:hover {
+    border-color:cadetblue;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
